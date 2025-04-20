@@ -16,7 +16,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 --  MEDIA LICENSE  --
 -- --------------- --
 
-The following media files are created by EmptyStar and are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+The following media files are created by EmptyStar and are licensed [CC0](https://creativecommons.org/publicdomain/zero/1.0/):
 
 - astralcraft_astralite/textures/astralcraft_astralite.png
 - astralcraft_shooting_star/sounds/astralcraft_shooting_star_appear.ogg
@@ -37,7 +37,10 @@ The following media files are created by EmptyStar and are licensed [CC0](https:
 - astralcraft_star_armor/textures/astralcraft_star_helmet_preview.png
 - astralcraft_star_armor/textures/astralcraft_star_leggings.png
 - astralcraft_star_armor/textures/astralcraft_star_leggings_preview.png
-- astralcraft_warp_star/sounds/astralcraft_warp_star_teleport.ogg
 - astralcraft_warp_star/textures/astralcraft_warp_star.png
+
+The following media files are also created by EmptyStar but are licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) in accordance with the original license of the works from which they were derived:
+
+- astralcraft_warp_star/sounds/astralcraft_warp_star_teleport.ogg
 
 Additional license information and appropriate attributions can be found in `CREDITS.md`.

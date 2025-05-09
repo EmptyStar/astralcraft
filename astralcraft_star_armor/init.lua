@@ -252,7 +252,7 @@ core.register_craft({
     {sf, "", sf},
     {"", sf, ""},
   },
-  output = ":astralcraft:star_charm",
+  output = "astralcraft:star_charm",
 })
 
 local settings = astralcraft.settings.shooting_star

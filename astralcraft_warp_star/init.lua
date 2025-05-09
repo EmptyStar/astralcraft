@@ -44,7 +44,7 @@ core.register_entity(":astralcraft:warp_star_thrown",{
     local node = core.get_node(pos)
     local def = core.registered_nodes[node.name]
 
-    if def and def.drawtype ~= "airlike" then
+    if def and (def.walkable or def.climbable or def.liquidtype ~= "none") then
       self.hit = true
       local player = core.get_player_by_name(self.thrower)
       if player then
@@ -108,7 +108,7 @@ core.register_entity(":astralcraft:warp_star_thrown",{
         -- Destroy self
         self:destroy()
       end
-    elseif node.name == "ignore" then
+    elseif not def or node.name == "ignore" then
       self:reset(wear_per_failure)
     else
       self.last_pos = pos

@@ -16,6 +16,15 @@ core.register_node(":astralcraft:astralite",{
   sounds = default.node_sound_glass_defaults(),
 })
 
+local sf = "astralcraft:star_fragment"
+core.register_craft({
+  recipe = {
+    {sf, sf},
+    {sf, sf},
+  },
+  output = "astralcraft:astralite 4",
+})
+
 if astralcraft.dependencies.stairs then
   -- Register stair
   stairs.register_stair(

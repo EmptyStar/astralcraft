@@ -283,7 +283,7 @@ core.register_globalstep(function(dtime)
     if star_destroy_interval <= 0 then
       for id,entity in pairs(core.luaentities) do
         local name = entity.name
-        if entity.name == "__builtin:item" and entity.itemstring and entity.itemstring:find("^astralcraft:shooting_star") and (core.get_natural_light(entity.object:get_pos(),0) or 0) > 0 then
+        if entity.object and entity.object:is_valid() and entity.name == "__builtin:item" and entity.itemstring and entity.itemstring:find("^astralcraft:shooting_star") and (core.get_natural_light(entity.object:get_pos(),0) or 0) > 0 then
           entity.object:remove()
         end
       end

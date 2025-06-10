@@ -16,6 +16,7 @@ astralcraft = {
       chance_max = tonumber(core.settings:get("astralcraft.shooting_star.chance_max",100) or 100),
       chance_step = tonumber(core.settings:get("astralcraft.shooting_star.chance_step",10) or 10),
       node_radius = tonumber(core.settings:get("astralcraft.shooting_star.node_radius",64) or 64),
+      fragments_per_star = tonumber(core.settings:get("astralcraft.shooting_star.fragments_per_star",5) or 5),
     },
     warp_star = {
       wear_per_distance = tonumber(core.settings:get("astralcraft.warp_star.wear_per_distance",50) or 50),

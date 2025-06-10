@@ -181,7 +181,7 @@ core.register_craft({
   recipe = {
     { "astralcraft:shooting_star" },
   },
-  output = "astralcraft:star_fragment 9",
+  output = "astralcraft:star_fragment " .. astralcraft.settings.shooting_star.fragments_per_star,
 })
 
 -- ----------- --

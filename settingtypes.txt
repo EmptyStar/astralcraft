@@ -27,6 +27,9 @@ astralcraft.shooting_star.chance_step (Failed spawn chance increase) int 10 0 10
 # The radius in nodes around a player that a spawner will check to spawn a shooting star
 astralcraft.shooting_star.node_radius (Spawn node radius) int 64 0 128
 
+# The number of shooting star fragments that a shooting star will produce when broken down via crafting
+astralcraft.shooting_star.fragments_per_star (Fragments per star) int 5 1 99
+
 [Warp Stars]
 
 # The amount of wear that a warp star will receive when thrown; larger values cause warp stars to break faster
